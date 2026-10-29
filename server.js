@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 
 const server = jsonServer.create();
-const router = jsonServer.router('gamegenapi.json');
+const router = jsonServer.router('gamegenapi_db.json');
 const middlewares = jsonServer.defaults();
 
 const port = process.env.port || 8080;
